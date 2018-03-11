@@ -10,8 +10,8 @@ We're accepting Rossmann's challenge to predict 6 weeks of daily sales for 1,115
 ## Table of Contents
 1. Import Packages
 2. Data Preparation
-  /n2.1 Load Dataset
-  2.2 Dealing With Missing Values
+  - 2.1 Load Dataset
+  - 2.2 Dealing With Missing Values
      2.2.1 Count missing values in each dataset
      2.2.2 Remove features with high percentages of missing values
      2.2.3 Replace missing values in features with low percentages of missing values
