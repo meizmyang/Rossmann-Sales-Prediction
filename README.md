@@ -10,40 +10,40 @@ We're accepting Rossmann's challenge to predict 6 weeks of daily sales for 1,115
 ## Table of Contents
 1. Import Packages
 2. Data Preparation
-  - 2.1 Load Dataset
-  - 2.2 Dealing With Missing Values
-     2.2.1 Count missing values in each dataset
-     2.2.2 Remove features with high percentages of missing values
-     2.2.3 Replace missing values in features with low percentages of missing values
-  2.3 Date Extraction
-  2.4 Joining Tables
-  2.5 Drop Subsets Of Data Where Might Cause Bias
-  2.6 Feature Engineering
-  2.6.1 Create new variable "AvgSales"
-  2.6.2 Create new variable "AvgCustomer"
-  2.6.3 Transform Variable "StateHoliday"
+- 2.1 Load Dataset
+- 2.2 Dealing With Missing Values
+   - 2.2.1 Count missing values in each dataset
+   - 2.2.2 Remove features with high percentages of missing values
+   - 2.2.3 Replace missing values in features with low percentages of missing values
+- 2.3 Date Extraction
+- 2.4 Joining Tables
+- 2.5 Drop Subsets Of Data Where Might Cause Bias
+- 2.6 Feature Engineering
+- 2.6.1 Create new variable "AvgSales"
+- 2.6.2 Create new variable "AvgCustomer"
+- 2.6.3 Transform Variable "StateHoliday"
 3. Exploratory Data Analysis
-  3.1 Correlation Heatmap
-  3.2 Sales Distribution
-  3.3 Customer Distribution
-  3.4 Sales Over Time
-  3.5 Sales Over Days Of A Month
-  3.6 Sales Over Weeks
-  3.7 Sales By Store Type
-  3.8 Sales By Assortment
-  3.9 Sales vs. Number Of Customers
-  3.10 Sales vs. Competition Distance
-  3.11 Sales By Promotion
-  3.12 Pair Plot
+- 3.1 Correlation Heatmap
+- 3.2 Sales Distribution
+- 3.3 Customer Distribution
+- 3.4 Sales Over Time
+- 3.5 Sales Over Days Of A Month
+- 3.6 Sales Over Weeks
+- 3.7 Sales By Store Type
+- 3.8 Sales By Assortment
+- 3.9 Sales vs. Number Of Customers
+- 3.10 Sales vs. Competition Distance
+- 3.11 Sales By Promotion
+- 3.12 Pair Plot
 4. Store Sales Prediction (Regression Models)
-  4.1 Linear Regression (OLS)
-  4.2 Bayesian Ridge Regression
-  4.3 LARS Lasso Regression
-  4.4 Decision Tree Regression
-  4.5 Random Forest Regression
-  4.6 K-Nearest Neighbors Regression
-  4.7 Model Selection
-  
-There actually will be part 5 coming ----
+- 4.1 Linear Regression (OLS)
+- 4.2 Bayesian Ridge Regression
+- 4.3 LARS Lasso Regression
+- 4.4 Decision Tree Regression
+- 4.5 Random Forest Regression
+- 4.6 K-Nearest Neighbors Regression
+- 4.7 Model Selection
+ 
+#### There actually is a part 5 coming ----
 I'm working on an ARIMA time series model to tackle the prediction. 
 Please see file "Rossmann Store Sales Prediction(ARIMA)" in my "Time Series Analysis" repository =]
